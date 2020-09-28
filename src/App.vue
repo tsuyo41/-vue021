@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <h1>Form</h1>
-    <Select />
+    <PreventForm />
   </div>
 </template>
 
 <script>
-import Select from './components/Select'
+import PreventForm from './components/PreventForm'
 
 export default {
   name: 'App',
   components: {
-    Select
+    PreventForm
   }
 }
 </script>
